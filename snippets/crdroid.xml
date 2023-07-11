@@ -4,9 +4,10 @@
   <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
 
-  <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
+  <!-- crDroid-UL repos -->
+  <project path="art" name="crDroid-UL/android_art" groups="pdk" remote="crdroidul" />
 
-  <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
+  <project path="bionic" name="crDroid-UL/android_bionic" groups="pdk" remote="crdroidul" />
 
   <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
 
@@ -42,18 +43,18 @@
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
 
-  <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk" remote="crdroid" />
-  <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
+  <project path="hardware/interfaces" name="crDroid-UL/android_hardware_interfaces" groups="pdk" remote="crdroidul" />
+  <project path="hardware/lineage/interfaces" name="crDroid-UL/android_hardware_lineage_interfaces" remote="crdroidul" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8350/audio" name="crdroidandroid/android_hardware_qcom_audio" groups="qcom,lahaina" revision="13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom,lahaina" revision="13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="crdroidandroid/android_hardware_qcom_media" groups="qcom,lahaina" revision="13.0-caf-sm8350" />
 
-  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="frameworks/av" name="crDroid-UL/android_frameworks_av" groups="pdk" remote="crdroidul" />
+  <project path="frameworks/base" name="crDroid-UL/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroidul" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid" />
-  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
+  <project path="frameworks/native" name="crDroid-UL/android_frameworks_native" groups="pdk" remote="crdroidul" />
+  <project path="frameworks/opt/telephony" name="crDroid-UL/android_frameworks_opt_telephony" groups="pdk" remote="crdroidul" />
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" groups="pdk" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" groups="pdk" remote="crdroid" />
@@ -82,7 +83,7 @@
   <project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="packages/modules/Connectivity" name="crDroid-UL/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroidul" />
   <project path="packages/modules/Permission" name="crdroidandroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/resources/devicesettings" name="crdroidandroid/android_packages_resources_devicesettings" remote="crdroid" />
@@ -92,15 +93,15 @@
   <!-- Clang 16 version 17.0.2 -->
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="crdroid-gitlab" />
 
-  <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
+  <project path="system/core" name="crDroid-UL/android_system_core" groups="pdk" remote="crdroidul" />
   <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" groups="pdk" remote="crdroid" />
-  <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
-  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
+  <project path="system/netd" name="crDroid-UL/android_system_netd" groups="pdk" remote="crdroidul" />
+  <project path="system/sepolicy" name="crDroid-UL/android_system_sepolicy" groups="pdk" remote="crdroidul" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
-  <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/lineage" name="crDroid-UL/android_vendor_lineage" remote="crdroidul" />
 
   <project path="vendor/nxp/opensource/interfaces/nfc" name="crdroidandroid/android_vendor_nxp_interfaces_opensource_nfc" remote="crdroid" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroidandroid/android_vendor_nxp_opensource_external_libnfc-nci" remote="crdroid" />
