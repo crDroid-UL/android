@@ -25,7 +25,13 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/13.0" />
-
+  
+  <remote  name="crdroidul"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/13.0" />
+  
   <remote  name="crdroid-gitlab"
            fetch="https://gitlab.com/"
            sync-c="true"
@@ -1142,6 +1148,11 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
+  # Add back caf-8994 HALs
+  <project path="hardware/qcom-caf/msm8994/audio" name="crDroid-UL/android_hardware_qcom_audio" revision="13.0" remote="crdroidul" />
+  <project path="hardware/qcom-caf/msm8994/display" name="crDroid-UL/android_hardware_qcom_display" revision="13.0" remote="crdroidul" />
+  <project path="hardware/qcom-caf/msm8994/media" name="crDroid-UL/android_hardware_qcom_media" revision="13.0" remote="crdroidul" />
+  
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
   <!--<include name="snippets/pixel.xml" />-->
