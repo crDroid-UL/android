@@ -23,7 +23,7 @@
 
   <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
 
-  <project path="build/make" name="crdroidandroid/android_build" groups="pdk" remote="crdroid" >
+  <project path="build/make" name="crDroid-UL/android_build" groups="pdk" remote="crdroidul" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -38,6 +38,7 @@
   </project>
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
+  <project path="device/qcom/sepolicy-legacy" name="crDroid-UL/android_device_qcom_sepolicy-legacy" remote="crdroidul" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
