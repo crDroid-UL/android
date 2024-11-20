@@ -71,7 +71,7 @@
   <project path="frameworks/opt/telephony" name="crDroid-UL/android_frameworks_opt_telephony" groups="pdk" remote="crdroidul" />
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" groups="pdk" remote="crdroid" />
 
-  <project path="libcore" name="crdroidandroid/android_libcore" groups="pdk" remote="crdroid" />
+  <project path="libcore" name="crDroid-UL/android_libcore" groups="pdk" remote="crdroidul" />
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
@@ -97,7 +97,7 @@
   <project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/modules/Bluetooth" name="crdroidandroid/android_packages_modules_Bluetooth" groups="pdk" remote="crdroid" />
+  <project path="packages/modules/Bluetooth" name="crDroid-UL/android_packages_modules_Bluetooth" groups="pdk" remote="crdroidul" />
   <project path="packages/modules/Connectivity" name="crDroid-UL/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroidul" />
   <project path="packages/modules/StatsD" name="crdroidandroid/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
