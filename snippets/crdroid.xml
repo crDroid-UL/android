@@ -100,9 +100,9 @@
   <project path="packages/modules/Bluetooth" name="crDroid-UL/android_packages_modules_Bluetooth" groups="pdk" remote="crdroidul" />
   <project path="packages/modules/Connectivity" name="crDroid-UL/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroidul" />
   <project path="packages/modules/StatsD" name="crdroidandroid/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="packages/modules/Wifi" name="crDroid-UL/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroidul" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
-  <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="packages/services/Telecomm" name="crDroid-UL/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroidul" />
 
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="crdroid" />
   <!-- Clang 16 version 17.0.2 -->
